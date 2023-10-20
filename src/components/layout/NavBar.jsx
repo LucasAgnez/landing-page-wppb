@@ -1,4 +1,6 @@
-import Logo from "../assets/images/logo.png";
+import Logo from "../../assets/images/logo.png";
+
+import "../../styles/components/navbar.sass"
 
 const NavBar = () => {
   return (
@@ -14,3 +16,5 @@ const NavBar = () => {
     </nav>
   )
 }
+
+export default NavBar;

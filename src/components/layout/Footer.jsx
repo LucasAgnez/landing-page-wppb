@@ -1,17 +1,19 @@
+import "../../styles/components/footer.sass"
+
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="info">
           <img src="" alt="" />
-          <span></span>
+          <span>A</span>
         </div>
         <div className="info">
           <img src="" alt="" />
-          <span></span>
+          <span>B</span>
         </div>
         <div className="info">
           <img src="" alt="" />
-          <span></span>
+          <span>C</span>
         </div>
     </footer>
   );
