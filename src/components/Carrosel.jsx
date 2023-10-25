@@ -91,7 +91,7 @@ const Carrosel = () => {
         <h3>Módulo 6 - Catálogo do Whatsapp Business</h3>
         <ul>
           <li> Desenvolvendo seu Catálogo</li>
-          <li>Enviando Catálogo o Produto ao Cliente</li>
+          <li>Enviando Catálogo e Produtos ao Cliente</li>
         </ul>
       </div>
       <div className="modulo">

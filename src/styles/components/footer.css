@@ -17,7 +17,21 @@ input{
     margin: auto;
 }
 .form-button{
- max-height: 40px;
+    max-height: 40px;
+    background-color: #ff6200;
+    margin: 15px auto;
+    margin-bottom: 25px;
+    font-size: 26px;
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 0;
+    width: 100%;
+    max-width: 502px;
+}
+.form-button:hover{
+    background-color: #fa863f;
+    cursor: pointer;
 }
 .fim{
     background-color: #0a3e7c;

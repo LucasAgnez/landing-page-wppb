@@ -1,12 +1,22 @@
 import "../../styles/components/footer.css"
 
 const Footer = () => {
+  function Submit(e){
+    const formEmelent = document.querySelector("form")
+    e.preventDefault()
+    const formData = new FormData(formEmelent)
+    fetch("https://script.google.com/macros/s/AKfycbyIsCwoYH8m2_L8XnyXk6cbH2glSOjh33SleqciCkGRLZ4zXP5XnNHB6uRltSK4XY1JqQ/exec", {
+      method: "POST",
+      body: formData
+    })
+  }
   return (
     <footer className="footer" id="formulario">
       <section>
-        <form>
-          <input placeholder="e-mail"/>
-          <input placeholder="nome"/>
+        <form onSubmit={(e) => Submit(e)}>
+          <input type="text" name="Nome" placeholder="nome"/>
+          <input type="email" name="Email" placeholder="e-mail"/>
+          <input type="text" name="Telefone" placeholder="telefone"/>
           <button className="form-button" type="submit">Enviar</button>
         </form>
       </section>
@@ -15,7 +25,7 @@ const Footer = () => {
         <p className="email">cursosaprendefacilcontato@gmail.com</p>
       </section>
       <section className="fim">
-        <p>2020 - Todos os direitos reservados.</p>
+        <p>2023 - Todos os direitos reservados.</p>
       </section>
     </footer>
   );
