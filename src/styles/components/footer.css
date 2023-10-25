@@ -1,0 +1,32 @@
+.footer{
+    background-color: #ffffff;
+    color: #0a3e7c;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: #e4e4e4;
+    padding: 2rem;
+    gap: 1rem;
+}
+input{
+    width: 100%;
+    max-width: 502px;
+    height: 40px;
+    margin: auto;
+}
+.form-button{
+ max-height: 40px;
+}
+.fim{
+    background-color: #0a3e7c;
+    color: #ffffff;
+    padding: 10px;
+}
+.sabermais{
+    font-size: 46px;
+}
+.email{
+    color: #000000;
+}

@@ -1,0 +1,77 @@
+.body{
+    
+}
+
+.conteudo{
+    background-color: #e4e4e4;
+    margin: auto;
+    padding: 10px 10px 30px 10px;
+    
+}
+
+.h{
+    font-size: 36px;
+    margin: 0;
+}
+.H2{
+    color: #0a3e7c;
+    text-align: center;
+    font-size: 36px;
+}
+.carrosel{
+    display: block;
+    margin: auto;
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    max-width: 900px;
+    width: 70%;
+    color: #232323;
+}
+.beneficios{
+    padding: 10px 10px 30px 10px;
+}
+
+.beneficio{
+    max-width: 200px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    min-width: 200px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        width: fit-content;
+    }
+    .perguntas{
+        text-align: center;
+    }
+}
+
+.perguntas{
+    background-color: #e4e4e4;
+    padding: 10px 10px 30px 10px;
+    text-align: start;
+}
+
+.central{
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+}
+.breve{
+    padding: 30px 10px 50px 10px;
+    background-color: #0a3e7c;
+    color: #ffffff;
+}

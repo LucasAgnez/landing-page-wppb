@@ -1,0 +1,14 @@
+li{
+    padding: 0 2%;
+    text-align: start;
+}
+.modulo{
+    margin: 10px 0;
+    border-width: 0px 0px 0px 1px;
+    border-style: groove;
+    border-color: #232323;
+    height: 204px;
+}
+.modulo0{
+    margin: 10px 0;
+}
