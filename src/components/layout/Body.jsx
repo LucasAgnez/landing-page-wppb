@@ -1,5 +1,6 @@
 import Carrosel from "../Carrosel";
 import "../../styles/components/body.css"
+import PeR from "../PeR";
 
 const Body = () => {
     return (
@@ -23,14 +24,14 @@ const Body = () => {
             <h2 className="H2">Perguntas frequentes</h2>
             <section className="central">
                 <section>
-                    <b>Quando posso assistir os conteúdos?</b>
-                    <p>Você pode assistir quando e como desejar! Todos os vídeos ficam disponíveis por tempo indeterminado</p>
-                    <b>Quais as formas de pagamento?</b>
-                    <p>Cartão, boleto, débito em conta ou Pix.</p>
-                    <b>Qual o formato das aulas?</b>
-                    <p>As aulas são todas em vídeo!</p>
-                    <b>Qual é a duração do curso?</b>
-                    <p>Não vamos gastar seu tempo! Nossas aulas são curtas e objetivas, o curso inteiro tem cerca de 2 horas de duração</p>
+                    <PeR pergunta="Quando posso assistir os conteúdos?"
+                        resposta="Você pode assistir quando e como desejar! Todos os vídeos ficam disponíveis por tempo indeterminado"/>
+                    <PeR pergunta="Quais as formas de pagamento?"
+                        resposta="Cartão, boleto, débito em conta ou Pix."/>
+                    <PeR pergunta="Qual o formato das aulas?"
+                        resposta="As aulas são todas em vídeo!"/>
+                    <PeR pergunta="Qual é a duração do curso?"
+                        resposta="Não vamos gastar seu tempo! Nossas aulas são curtas e objetivas, o curso inteiro tem cerca de 2 horas de duração"/>
                 </section>
             </section>
         </section>
