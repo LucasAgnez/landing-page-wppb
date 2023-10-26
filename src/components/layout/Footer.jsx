@@ -5,7 +5,6 @@ const Footer = () => {
     const formEmelent = document.querySelector("form")
     e.preventDefault()
     const formData = new FormData(formEmelent)
-    console.log("a")
     fetch("https://script.google.com/macros/s/AKfycbx6KbeNEcJLLzWv7P3YLExp0KA1xzrg7ZjtRexHf6ln-vaJreoguawbdLgB1b9S1CwBNw/exec", {
       method: "POST",
       body: formData
