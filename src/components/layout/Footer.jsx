@@ -1,4 +1,5 @@
 import "../../styles/components/footer.css"
+import { IMaskInput } from "react-imask";
 
 const Footer = () => {
   function Submit(e){
@@ -10,13 +11,14 @@ const Footer = () => {
       body: formData
     })
   }
+
   return (
     <footer className="footer" id="formulario">
       <section>
         <form onSubmit={(e) => Submit(e)}>
           <input type="text" name="Nome" placeholder="nome"/>
           <input type="email" name="Email" placeholder="e-mail"/>
-          <input type="text" name="Telefone" placeholder="telefone"/>
+          <IMaskInput mask="(00) 00000-0000" name="Telefone" placeholder="telefone"/>
           <button className="form-button" type="submit">Enviar</button>
         </form>
       </section>
