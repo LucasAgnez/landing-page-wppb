@@ -1,6 +1,6 @@
 .main{
-    background-color: #0a3e7c;
-    color: #ffffff;
+    background-color: #188c20;
+    color: #e9f2f1;
     padding: 10px 10px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 .h2{
     font-size: 36px;
     margin: 10 auto;
-    color: #ffffff;
+    color: #e9f2f1;
 }
 .h1{
     margin-top: 0;
@@ -26,11 +26,11 @@ iframe{
     max-width: 502px;
 }
 button{
-    background-color: #ff6200;
+    background-color: #e9f2f1;
     margin: 15px auto;
     margin-bottom: 25px;
     font-size: 26px;
-    color: #ffffff;
+    color: #188c20;
     border-radius: 5px;
     border-style: groove;
     border-width: 0;
@@ -39,7 +39,7 @@ button{
     height: 65px;
 }
 button:hover{
-    background-color: #fa863f;
+    background-color: #bbf2c3;
     cursor: pointer;
 }
 

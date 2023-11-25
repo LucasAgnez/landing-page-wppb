@@ -1,0 +1,13 @@
+.depoimento{
+    margin: 10px 0;
+    border-width: 0px 0px 0px 1px;
+    border-style: groove;
+    border-color: #232323;
+    height: 204px;
+}
+.heading{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 16px;
+}

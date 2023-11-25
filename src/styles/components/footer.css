@@ -1,40 +1,21 @@
 .footer{
-    background-color: #ffffff;
-    color: #0a3e7c;
+    background-color: #e9f2f1;
+    color: #188c20;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    background-color: #e4e4e4;
-    padding: 2rem;
-    gap: 1rem;
-}
 input{
     width: 100%;
     max-width: 502px;
     height: 40px;
     margin: auto;
 }
-.form-button{
-    max-height: 40px;
-    background-color: #ff6200;
-    margin: 15px auto;
-    margin-bottom: 25px;
-    font-size: 26px;
-    color: #ffffff;
-    border-radius: 5px;
-    border-style: groove;
-    border-width: 0;
-    width: 100%;
-    max-width: 502px;
-}
-.form-button:hover{
-    background-color: #fa863f;
-    cursor: pointer;
+.venda{
+    padding: 30px 10px 50px 10px;
+    background-color: #188c20;
+    color: #e9f2f1;
 }
 .fim{
-    background-color: #0a3e7c;
+    background-color: #188c20;
     color: #ffffff;
     padding: 10px;
 }
@@ -43,4 +24,14 @@ input{
 }
 .email{
     color: #000000;
+}
+
+.preco{
+    display: flex;
+}
+
+.inscreva{
+    padding: 30px 10px 50px 10px;
+    background-color: #bbf2c3;
+    margin: auto;
 }

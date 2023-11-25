@@ -1,9 +1,9 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../styles/components/carrosel.css"
+import "../styles/components/modulos.css"
 
-const Carrosel = () => {
+const Modulos = () => {
   let settings = {
     dots: true,
     infinite: false,
@@ -14,7 +14,7 @@ const Carrosel = () => {
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         }
       },
       {
@@ -111,4 +111,4 @@ const Carrosel = () => {
   );
 }
 
-export default Carrosel;
+export default Modulos;

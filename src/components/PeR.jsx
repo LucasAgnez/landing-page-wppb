@@ -7,11 +7,10 @@ const PeR = (props) => {
 
     const [mostra, setMostra] = useState(false)
 
-
     function show(){
         setMostra(!mostra)
     }
-
+    
     return(
     <main className="colapse">
         <div className="cabeca" onClick={() => show()}>
