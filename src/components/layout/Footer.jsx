@@ -18,7 +18,7 @@ const Footer = () => {
             <h3 className="h3"> APENAS POR</h3>
             <h2 className="h2">R$ 89.99</h2>
           </section>
-          <a href="">
+          <a href="https://hotmart.com/pt-br/marketplace/produtos/whatsapp-business-do-zero-ao-avancado-aprende-facil/E89084874B">
             <button>GARANTIR MINHA VAGA</button>
           </a>
         </section>
